@@ -1,0 +1,113 @@
+#ticTacToeLabel {
+    display: block;
+    text-align: center;
+    font-size: 8em;
+    font-family: Helvetica;
+}
+
+#btnContainer {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+#inputContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+
+#playerNamesContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+
+#input{
+    border: blue;
+    background: #f2f2f2;
+    padding: 12px;
+    border-radius: 3px;
+    width: 250px;
+}
+
+#enterName {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    font-family: Helvetica;
+    padding-right: 4px;
+}
+
+#playerValue {
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    font-family: Helvetica;
+}
+
+#turnText {
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    font-family: Helvetica;
+    padding-bottom: 5%;
+}
+#searchingText {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    font-family: Helvetica;
+}
+
+#oppValue {
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    font-family: Helvetica;
+}
+
+#user1Name {
+    display: flex;
+    text-align: middle;
+    font-size: 3em;
+    font-family: Helvetica;
+}
+
+#user2Name {
+    display: flex;
+    text-align: middle;
+    font-size: 3em;
+    font-family: Helvetica;
+}
+
+.inputButtons {
+    display: inline-block;
+    border: none;
+    font-size: 1em;
+    font-family: Helvetica;
+    background-color: #7a7a7a;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    padding: 15px 32px;
+}
+
+.buttons {
+    height: 3em;
+    width: 3em;
+    font-size: 64px;
+    font-family: Helvetica;
+    color: white;
+    background-color: rgb(98, 98, 98);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover{
+    background-color: rgb(0, 109, 143);
+}
+
+.inputButtons:hover {
+    background-color: rgb(0, 109, 143);
+}

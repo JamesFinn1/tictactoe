@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe Game</title>
+    <h1 id = "ticTacToeLabel">Tic-Tac-Toe</h1><br>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id = "inputContainer">
+    <input type="text" id="inputNameBox" placeholder = "Enter Name"><br>
+    <button id="inputNameBtn" class="inputButtons">Find Game</button>
+    </div>
+
+    <br>
+    <label id="searchingText">Searching For Game...</label>
+    <br>
+
+    <br>
+    <h2 id="playerValue"> X </h2>
+    <br>
+    <h2 id="oppValue"> X </h2>
+    <br>
+
+    <div id="playerNamesContainer">
+        <h2 id = "user1Name"> user1 </h2>
+        <h2 id = "user2Name"> user2 </h2>
+    </div>
+
+    <label id="turnText">placeholder</label>
+    <div id = "btnContainer"> 
+        <button id="btn1" class = "buttons"></button>
+        <button id="btn2" class = "buttons"></button>
+        <button id="btn3" class = "buttons"></button><br>
+
+        <button id="btn4" class = "buttons"></button>
+        <button id="btn5" class = "buttons"></button>
+        <button id="btn6" class = "buttons"></button><br>
+
+        <button id="btn7" class = "buttons"></button>
+        <button id="btn8" class = "buttons"></button>
+        <button id="btn9" class = "buttons"></button>
+
+    </div>
+    <br><br><br>
+
+    <script src="https://cdn.socket.io/4.6.1/socket.io.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
